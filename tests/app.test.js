@@ -43,7 +43,7 @@ describe('getTotal function', () => {
   it('import without errors', () => {
     expect(getTotal).toBeDefined();
   });
-  
+
   it('calculate without discount', () => {
     expect(getTotal([{ price: 10, quantity: 2 }])).toBe(20);
   });
