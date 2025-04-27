@@ -42,3 +42,20 @@ export const getTotal = (items = [], discount = 0) => {
   );
   return total * (1 - discount / 100);
 };
+
+function getScore(scores) {
+  let total = 0;
+  for (let nickname in scores) {
+    total += scores[nickname];
+  }
+  return total;
+}
+
+const scores = {
+  Anna: 10,
+  Olga: 1,
+  Ivan: 6
+};
+
+getScore(scores)
+console.log(getScore(scores))
