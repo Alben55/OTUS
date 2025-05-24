@@ -54,8 +54,8 @@ function getScore(scores) {
 const scores = {
   Anna: 10,
   Olga: 1,
-  Ivan: 6
+  Ivan: 6,
 };
 
-getScore(scores)
-console.log(getScore(scores))
+getScore(scores);
+console.log(getScore(scores));

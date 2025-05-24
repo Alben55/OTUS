@@ -11,7 +11,7 @@ const config = {
   deleteBookURL: process.env.DELETE_BOOK_URL,
   userName: process.env.TEST_USERNAME,
   password: process.env.TEST_PASSWORD,
-  user_id: process.env.TEST_USERID
+  user_id: process.env.TEST_USERID,
 };
 
 export default Object.freeze(config);

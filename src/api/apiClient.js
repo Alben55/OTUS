@@ -1,10 +1,10 @@
-import axios from "axios";
-import config from "../../framework/config/config.js"
+import axios from 'axios';
+import config from '../../framework/config/config.js';
 
 const apiClient = axios.create({
   baseURL: config.baseURL,
   headers: {
-    "Content-Type": "application/json",
+    'Content-Type': 'application/json',
   },
 });
 
